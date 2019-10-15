@@ -16,8 +16,7 @@ public class Test {
     while (iterator.hasNext()) {
 
       String s = iterator.next();
-      if ("C".equals(s)) map.remove(s);
-      // iterator.remove();
+     System.out.println("hello world....");
     }
     System.out.println(map);
   }
