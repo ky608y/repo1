@@ -16,7 +16,7 @@ public class Test {
     while (iterator.hasNext()) {
 
       String s = iterator.next();
-     System.out.println("hello world....");
+     System.out.println("hello world...."+s);
     }
     System.out.println(map);
   }
